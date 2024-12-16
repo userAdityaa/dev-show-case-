@@ -71,7 +71,7 @@ const LandingPage = () => {
             </div>
         </div>
 
-        <Image src='/cloud_landing.webp' alt='cloud landing page' height={300} width={800} className='rounded-2xl mt-10'></Image>
+        <Image src='/cloud_landing.webp' alt='cloud landing page' height={300} width={800} className='rounded-2xl mt-16'></Image>
     
     </div>
   )
