@@ -62,8 +62,8 @@ const parkinsans = Parkinsans({
 const LandingPage = () => {
   return (
     <div className='flex justify-between items-center min-h-screen w-full bg-[#151619] p-6'>
-        <div className={`flex flex-col w-[50%] h-[20rem] gap-2`}>
-            <h1 className={`text-[#fbf8f0] text-[52px] font-bold ${poppins.className}`}>Your Digital Development Portfolio</h1>
+        <div className={`flex flex-col w-[55%] h-[20rem] gap-2`}>
+            <h1 className={`text-[#fbf8f0] text-[52px] font-bold ${poppins.className} w-[95%]`}>Your Digital Development Portfolio</h1>
             <p className='text-[#fbf8f0] font-medium text-[19px]'>A revolutionary platform designed to help developers showcase their projects, highlight their skills, and connect with the global tech community.</p>
             <div className='flex justify-between w-[50%] text-[20px] mt-4'>
                 <Button className='bg-white text-black font-semibold p-6 rounded-xl hover:text-white hover:border hover:border-zinc-300'>Get Started Now</Button>
@@ -71,7 +71,7 @@ const LandingPage = () => {
             </div>
         </div>
 
-        <Image src='/cloud_landing.webp' alt='cloud landing page' height={300} width={800}></Image>
+        <Image src='/cloud_landing.webp' alt='cloud landing page' height={300} width={800} className='rounded-2xl mt-10'></Image>
     
     </div>
   )
