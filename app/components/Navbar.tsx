@@ -1,10 +1,12 @@
 import React from 'react'
 import Image from 'next/image'
+import { Button } from '@/components/ui/button'
 
 const Navbar = () => {
   return (
-    <div className='fixed top-0 left-0 h-20 w-full flex items-center px-6'>
+    <div className='fixed top-0 left-0 h-20 w-full flex items-center px-6 justify-between'>
         <Image src = '/logo.png' alt='logo' height={20} width={155}></Image>
+        <Button className='bg-white text-black font-semibold hover:border hover:border-zinc-300 hover:text-white'>Sign in</Button>
     </div>
   )
 }

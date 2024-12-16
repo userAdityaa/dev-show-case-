@@ -5,6 +5,8 @@ import { LandingPage } from "./pages";
 
 export default function Home() {
   return (
-    <LandingPage/>
+    <div className="bg-[#151619]">
+      <LandingPage/>
+    </div>
   );
 }
