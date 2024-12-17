@@ -1,12 +1,19 @@
+'use client'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from '@/components/ui/card'
 import { Input } from '@/components/ui/input'
 import { Label } from '@/components/ui/label'
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select'
-import React from 'react'
+import React, { useEffect } from 'react'
 import Image from 'next/image'
+import { useNavbarTheme } from '../context/navbarContext'
 
 const Auth = () => {
+  const {theme, setTheme} = useNavbarTheme(); 
+  useEffect(() => { 
+    setTheme('otherPage');
+  }, []);
+
   return (
     <div className='flex items-center justify-center h-[100vh]'>
       <div className='w-[50%] flex items-center justify-center'>
