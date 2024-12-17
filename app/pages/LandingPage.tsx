@@ -62,7 +62,7 @@ const parkinsans = Parkinsans({
 const LandingPage = () => {
     return (
       <div className='flex max-md:flex-col justify-between items-center min-h-screen w-full bg-[#151619] p-6 max-md:justify-center'>
-        <Image src = '/phone-one.svg' alt='phone one' width={150} height={200} className='max-md:block max-md:rounded-2xl max-lg:hidden'></Image>
+        <Image src = '/phone-one.svg' alt='phone one' width={150} height={200} className='max-md:block max-md:rounded-2xl max-lg:hidden max-xl:hidden max-2xl:hidden'></Image>
           <div className={`flex flex-col justify-center w-[55%] h-[20rem] gap-2 max-lg:w-[50%] max-lg:h-[25rem] max-md:w-[100%] max-md:text-center`}>
               <h1 className={`text-[#fbf8f0] text-[52px] font-bold ${poppins.className} w-[95%] max-lg:text-[40px] max-md:text-b`}>Your Digital Development Portfolio</h1>
               <p className='text-[#fbf8f0] font-medium text-[19px] max-lg:text-[16px]'>A revolutionary platform designed to help developers showcase their projects, highlight their skills, and connect with the global tech community.</p>
