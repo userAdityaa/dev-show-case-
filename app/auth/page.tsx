@@ -16,9 +16,8 @@ const Auth = () => {
 
   return (
     <div className='flex items-center justify-center h-[100vh]'>
-      <div className='w-[50%] flex items-center justify-center'>
-        <Image src = '/phone-one.svg' alt='phone one' width={250} height={350} className='rounded-2xl -rotate-12'></Image>
-        <Image src = '/phone-two.svg' alt='phone two' width={250} height={350} className='rounded-2xl rotate-6'></Image>
+      <div className='w-[50%] flex items-center justify-center max-lg:hidden'>
+        <Image src = '/auth_image.jpg' alt='auth image' width={700} height={1400} className='ml-[3rem] rounded-xl'></Image>
       </div>
       <div className='w-[50%] flex items-center justify-center h-full'>
       <Card className="w-[450px] h-[320px]">
